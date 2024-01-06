@@ -1,0 +1,17 @@
+.home__p { 
+    font-size: 10rem;
+    text-indent: 1.15rem;
+}
+.MDBCardText{
+    text-align: center;
+}
+a{
+    width: 50vh;
+}
+
+.containerCard{
+    align-items: center;
+}
+section{
+    background-color: rgb(80, 129, 129);
+}

@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+span{
+  background-color: pink;
+}
+main {
+  background-color:rgb(80, 129, 129);
+  width: 100vw;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+h1 { 
+  font-size: 10rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  padding: 1rem;
+  border: 2px solid black;
+  cursor: pointer;
+  background-color: rgb(254, 55, 122);
+  color: rgb(171, 231, 166);
+  margin:3rem;
+  font-weight: bold;
+}
+
+.turneroSection {
+  text-align: center;
+  padding: 5vh;
+
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+
+input { 
+  margin: .5rem;
+  padding: .5rem;
+  font-size: 1.25rem;
+}
+textarea{
+  margin: 5rem;
+}
+
+.cancelButton {
+  background-color: rgb(150, 222, 243);
+  color: black;
+}
+
+.administradorTurnosContenedor {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.administradorTurnos {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.AspectoTurno_li {
+  border-radius: 4px;
+  border: 2px rgb(166, 133, 162) solid;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.AspectoTurno_h3 {
+  font-size: 1.20rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.AspectoTurno_i {
+  display: block;
+  margin-bottom: .75rem;
+}
+
+.AspectoTurno_p {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.AspectoTurno_botonera {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

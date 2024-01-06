@@ -1,0 +1,13 @@
+.solicitarTurnoComponent__section {
+    font-weight: bold;
+    padding: 0;
+    text-align:center;
+    display: flex;
+
+}
+button{
+    background-color: pink;
+}
+button:hover{
+    background-color: blue;
+}

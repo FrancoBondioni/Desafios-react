@@ -1,0 +1,7 @@
+.mensaje{
+    white-space: pre-line;
+    background-color: rgb(143, 239, 223);
+    border-radius: 30px;
+    color: blue;
+
+}
