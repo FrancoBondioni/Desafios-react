@@ -1,0 +1,27 @@
+.container{
+    border: 10px groove #116ffc;
+    margin: 20px 5px;
+}
+.col1{
+    color:black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: flex-end;
+    width: 100;
+    background-color: rgb(212, 182, 248);
+}
+
+.col2{
+    background-color: #9cf7f877;
+}
+img{
+    width: 300px;
+    padding-bottom: 50px;
+}
+@media (min-width: 768px){
+    .col1{
+        width: 50vw;
+    }
+}
